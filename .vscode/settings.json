@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:sequelize_node}/db.sqlite",
+            "name": "database"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "nodejs",
+            "database": "sequelize_node",
+            "username": "nodejs"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
